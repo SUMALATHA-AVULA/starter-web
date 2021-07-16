@@ -1,3 +1,16 @@
 Franzen brunch crucifix vaporware. Helvetica you probably haven't heard of them la croix semiotics lo-fi pok pok mumblecore skateboard echo park hella tumblr. Scenester forage iPhone truffaut. Pinterest microdosing keffiyeh vape everyday carry, woke mixtape bitters scenester subway tile hot chicken swag normcore. Craft beer swag hashtag selfies 90's plaid chia mlkshk health goth put a bird on it salvia. Paleo ugh beard, ennui four dollar toast lo-fi iPhone hexagon chillwave prism flexitarian everyday carry echo park lomo bicycle rights. Kale chips williamsburg skateboard, brunch actually lumbersexual snackwave.
 
 Tumeric prism dreamcatcher kale chips pickled, lo-fi synth twee fixie vape lumbersexual cred. Portland distillery sartorial literally, hashtag cardigan pok pok narwhal. Shabby chic gochujang raw denim chia, banh mi seitan hashtag flannel cardigan listicle adaptogen en
+
+
+
+How to change your Git editor
+
+When you create a Git commit with git commit –a, the default editor that will be opened is Vim. This can be very confusing for people, as Vim is not an easy editor if you have never worked with it previously.
+
+Luckily, Git allows you to change the editor that gets opened by default very easily!
+
+There are two ways in which this can be done. The first is via the terminal; this is useful if you want your editor to be Nano, for example. The command to do this is git config --global core.editor "nano". You can change the highlighted section with your editor of choice!
+
+Another way to do this is to edit the .gitconfig file in your home directory. The location of this file depends on the operating system you're using. The possible ...
+
